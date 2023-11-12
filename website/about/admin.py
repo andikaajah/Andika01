@@ -1,8 +1,7 @@
 from django.contrib import admin
-from .models import Produk
-from .models import Katagori
+from .models import Foto,Fotoproduk
 
 # Register your models here.
 
-admin.site.register(Produk)
-admin.site.register(Katagori)
+admin.site.register(Foto)
+admin.site.register(Fotoproduk)
